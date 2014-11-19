@@ -6,7 +6,7 @@
 	"license": "MIT",
 	"require": {
 		"laravel/framework": "4.2.*",
-		"jumilla/laravel-extension": "1.*",
+		"laravel-plus/extension": "1.*",
 		"barryvdh/laravel-debugbar": "1.*"
 	},
 	"autoload": {
