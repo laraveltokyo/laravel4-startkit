@@ -122,7 +122,7 @@ return array(
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 
-		'Jumilla\LaravelExtension\ServiceProvider',
+		'LaravelPlus\Extension\ServiceProvider',
 		'Barryvdh\Debugbar\ServiceProvider',
 
 	),
