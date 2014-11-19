@@ -1,8 +1,8 @@
-/.idea
+/bootstrap/compiled.php
 /vendor
-/node_modules
-.env
+composer.phar
+composer.lock
+.env.*.php
+.env.php
 .DS_Store
 Thumbs.db
-composer.lock
-composer.phar
