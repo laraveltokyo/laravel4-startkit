@@ -11,7 +11,13 @@
 |
 */
 
-Route::get('/', function()
-{
+Route::get('/', function() {
 	return View::make('hello');
+});
+
+Route::get('/login', 'AuthController@getLogin');
+Route::post('/login', 'AuthController@postLogin');
+Route::get('/logout', 'AuthController@getLogout');
+Route::get('/home', function() {
+	return 'Login OK.';
 });
