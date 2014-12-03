@@ -9,6 +9,7 @@ return [
 		'attributes' => [
 			'username' => 'User Name',
 			'password' => 'Password',
+			'submit' => 'Login',
 		],
 		// フォーム固有のヘルプテキスト
 		'helptexts' => [

@@ -22,7 +22,7 @@ class AuthController extends BaseController {
 		// value based validation
 		if ($input->username !== 'user1' || $input->password !== 'pass') {
 			return Redirect::to('/login')
-				->withErrors(['Invalid Credentials.'])
+				->withErrors([trans('auth.error-invalid-credential')])
 				->withInput()
 			;
 		}
