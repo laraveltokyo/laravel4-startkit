@@ -83,6 +83,7 @@ return array(
 	| specify a specific custom language line for a given attribute rule.
 	|
 	*/
+
 	'custom' => array(
 		'attribute-name' => array(
 			'rule-name' => 'custom-message',
@@ -99,6 +100,7 @@ return array(
 	| of "email". This simply helps us make messages a little cleaner.
 	|
 	*/
+
 	'attributes' => array(),
 
 );
