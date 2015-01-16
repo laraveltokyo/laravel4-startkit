@@ -9,17 +9,23 @@ $ composer create-project laravel-plus/laravel4 <directory>
 
 ### 本家版との違い
 
-以下のものが標準で追加されています
 - パッケージ指定
-	- [Extension Pack - jumilla/laravel-extension](http://github.com/jumilla/laravel-extension)
-	- [Debugbar - barryvdh/laravel-debugbar](http://github.com/barryvdh/laravel-debugbar)
-- 追加コマンド (Extension)
+	- [Extension Pack - laravel-plus/laravel-extension](https://github.com/jumilla/laravel-extension/tree/laravel4)
+	- [Debugbar - barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar)
+- 既定のLaravel環境
+	- local (`bootstrap/start.php`で設定)
+- データベース設定
+	- local: sqlite (ファイルは`app/storage/database/local.sqlite`)
+	- testing: sqlite (ファイルは`app/storage/database/testing.sqlite`)
+- 日本語リソース (lang/ja)
+- artisanコマンド (Extension)
 	- addon:setup
 	- addon:make
 	- addon:check
 	- app:container:list
-- 日本語リソース (lang/ja)
+- スクリプト
+	- unittest
 
 ### ライセンス
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+Laravelフレームワークは、[MIT ライセンス](http://opensource.org/licenses/MIT)のオープンソースソフトウェアです。
